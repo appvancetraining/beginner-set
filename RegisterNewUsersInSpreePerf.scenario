@@ -69,7 +69,7 @@
       <opt name="PercentageLogsSaved" value="100"/>
       <opt name="ThinkTime" value="0"/>
       <opt name="IntervalTime" value="0"/>
-      <opt name="DynamicIpAddress" value="false"/>
+      <opt name="DynamicIpAddress" value="true"/>
       <opt name="EnableSavingLogs" value="true"/>
       <opt name="AlwaysSaveLogOnFailure" value="true"/>
       <opt name="AddThinkTimeToStep" value="false"/>
