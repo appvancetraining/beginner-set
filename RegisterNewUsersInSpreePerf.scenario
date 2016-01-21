@@ -33,7 +33,7 @@
     <resource type="data" path="{scenario}/users.csv" cache="false"/>
   </resources>
   <testnodes>
-    <cloud name="Grid" type="Grid" config="SERVER/C:/Cloud Config Files/IPSpoofingTestNodes.cloud" amount="2" instantiate="None" terminate="None" reboot="Never"/>
+    <cloud name="Grid" type="Grid" config="SERVER/C:/Cloud Config Files/IPSpoofingTestNodes.cloud" amount="3" instantiate="None" terminate="None" reboot="Never"/>
   </testnodes>
   <bundles>
     <bundle name="hibernate" version="3.0"/>
