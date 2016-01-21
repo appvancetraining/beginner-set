@@ -106,7 +106,7 @@
   <monitoring enablednodes="true" enabledtarget="false"/>
   <execution type="loadtest">
     <iteration controller="Perf" name="Perf">
-      <testcase name="RegisterNewUser" totalexecutions="1" users="20"/>
+      <testcase name="RegisterNewUser" totalexecutions="1" users="21"/>
     </iteration>
   </execution>
   <logs>
