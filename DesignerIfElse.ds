@@ -254,7 +254,8 @@
 	<dialect type="sahi">
 		<accessor type='' value='' selected="false"/>
 		<accessor type='' value="storedVars['cartEmptyCheck']==&quot;Cart: (Empty)&quot;" selected="false"/>
-		<accessor type='' value="storedVars[&quot;cartEmptyCheck&quot;]==&quot;Cart: (Empty)&quot;" selected="true"/>
+		<accessor type='' value="storedVars[&quot;cartEmptyCheck&quot;]==&quot;Cart: (Empty)&quot;" selected="false"/>
+		<accessor type='' value="storedVars[&quot;cartEmptyCheck&quot;] == &quot;Cart: (Empty)&quot;" selected="true"/>
 	</dialect>
 	<dialect type="selenium">
 		<accessor attribute='' value='' selected="false"/>
