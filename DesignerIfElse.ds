@@ -3,7 +3,7 @@
 <metainfo>
 </metainfo>
 
-<dpl filename="SERVER/C:/apc/apc2.2.214/MyScripts/Appvance_Training/users.csv" exectype="runnextstep" errorhandling="stop"/>
+<dpl filename="REPOSITORY/Labs/users.csv" exectype="runstepbystep" errorhandling="stop"/>
 
 <step action="navigateTo" value="&quot;http://ec2-52-35-57-90.us-west-2.compute.amazonaws.com:8888/&quot;" type="web" desc='' isThinkTime='false' isCommented='false' sequence="0">
 	<dialect type="sahi">
