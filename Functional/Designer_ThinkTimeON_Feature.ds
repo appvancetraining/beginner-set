@@ -3,7 +3,7 @@
 <metainfo>
 </metainfo>
 
-<dpl filename="SERVER/C:/apc/apc2.2.214/MyScripts/Appvance_Training/users.csv" exectype="runstepbystep" errorhandling="stop"/>
+<dpl filename="REPOSITORY/Labs/users.csv" exectype="runstepbystep" errorhandling="stop"/>
 
 <step action="navigateTo" value="&quot;http://ec2-52-35-57-90.us-west-2.compute.amazonaws.com:8888/&quot;" type="web" desc='' isThinkTime='false' isCommented='false' sequence="0">
 	<dialect type="sahi">
@@ -43,7 +43,11 @@
 
 
 
+<<<<<<< HEAD:Functional/Designer_ThinkTimeON_Feature.ds
 <step action="wait" value="21015" type="web" desc='' isThinkTime="true" isCommented='false' sequence="3">
+=======
+<step action="wait" value="3000" type="web" desc='' isThinkTime="true" isCommented='false' sequence="3">
+>>>>>>> origin/master:Designer_ThinkTimeON_Feature.ds
 	<dialect type="sahi">
 		<accessor type="wait" value='' selected="true"/>
 	</dialect>
@@ -70,7 +74,11 @@
 
 
 
+<<<<<<< HEAD:Functional/Designer_ThinkTimeON_Feature.ds
 <step action="wait" value="49114" type="web" desc='' isThinkTime="true" isCommented='false' sequence="5">
+=======
+<step action="wait" value="2383" type="web" desc='' isThinkTime="true" isCommented='false' sequence="5">
+>>>>>>> origin/master:Designer_ThinkTimeON_Feature.ds
 	<dialect type="sahi">
 		<accessor type="wait" value='' selected="true"/>
 	</dialect>
@@ -97,7 +105,11 @@
 
 
 
+<<<<<<< HEAD:Functional/Designer_ThinkTimeON_Feature.ds
 <step action="wait" value="4956" type="web" desc='' isThinkTime="true" isCommented='false' sequence="7">
+=======
+<step action="wait" value="2462" type="web" desc='' isThinkTime="true" isCommented='false' sequence="7">
+>>>>>>> origin/master:Designer_ThinkTimeON_Feature.ds
 	<dialect type="sahi">
 		<accessor type="wait" value='' selected="true"/>
 	</dialect>
@@ -124,7 +136,11 @@
 
 
 
+<<<<<<< HEAD:Functional/Designer_ThinkTimeON_Feature.ds
 <step action="wait" value="6942" type="web" desc='' isThinkTime="true" isCommented='false' sequence="9">
+=======
+<step action="wait" value="2038" type="web" desc='' isThinkTime="true" isCommented='false' sequence="9">
+>>>>>>> origin/master:Designer_ThinkTimeON_Feature.ds
 	<dialect type="sahi">
 		<accessor type="wait" value='' selected="true"/>
 	</dialect>
@@ -151,7 +167,11 @@
 
 
 
+<<<<<<< HEAD:Functional/Designer_ThinkTimeON_Feature.ds
 <step action="wait" value="2922" type="web" desc='' isThinkTime="true" isCommented='false' sequence="11">
+=======
+<step action="wait" value="1928" type="web" desc='' isThinkTime="true" isCommented='false' sequence="11">
+>>>>>>> origin/master:Designer_ThinkTimeON_Feature.ds
 	<dialect type="sahi">
 		<accessor type="wait" value='' selected="true"/>
 	</dialect>
@@ -178,7 +198,11 @@
 
 
 
+<<<<<<< HEAD:Functional/Designer_ThinkTimeON_Feature.ds
 <step action="wait" value="3890" type="web" desc='' isThinkTime="true" isCommented='false' sequence="13">
+=======
+<step action="wait" value="1038" type="web" desc='' isThinkTime="true" isCommented='false' sequence="13">
+>>>>>>> origin/master:Designer_ThinkTimeON_Feature.ds
 	<dialect type="sahi">
 		<accessor type="wait" value='' selected="true"/>
 	</dialect>
@@ -204,6 +228,7 @@
 
 
 
+<<<<<<< HEAD:Functional/Designer_ThinkTimeON_Feature.ds
 <step action="wait" value="3833" type="web" desc='' isThinkTime="true" isCommented='false' sequence="15">
 	<dialect type="sahi">
 		<accessor type="wait" value='' selected="true"/>
@@ -312,6 +337,9 @@
 
 
 <step action="wait" value="4829" type="web" desc='' isThinkTime="true" isCommented='false' sequence="23">
+=======
+<step action="wait" value="2100" type="web" desc='' isThinkTime="true" isCommented='false' sequence="15">
+>>>>>>> origin/master:Designer_ThinkTimeON_Feature.ds
 	<dialect type="sahi">
 		<accessor type="wait" value='' selected="true"/>
 	</dialect>

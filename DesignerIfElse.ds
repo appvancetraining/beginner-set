@@ -1,9 +1,9 @@
-<testcase name='DesignerAssertExample' description='' author='' version=''>
+<testcase name='DesignerIfElse' description='' author='' version=''>
 
 <metainfo>
 </metainfo>
 
-<dpl filename="REPOSITORY/Labs/users.csv" exectype="runnextstep" errorhandling="stop"/>
+<dpl filename="REPOSITORY/Labs/users.csv" exectype="runstepbystep" errorhandling="stop"/>
 
 <step action="navigateTo" value="&quot;http://ec2-52-35-57-90.us-west-2.compute.amazonaws.com:8888/&quot;" type="web" desc='' isThinkTime='false' isCommented='false' sequence="0">
 	<dialect type="sahi">
@@ -48,7 +48,21 @@
 
 
 
-<step action="setValue" value="&quot;$password&quot;" type="web" desc='' isThinkTime='false' isCommented='false' sequence="3">
+<step action="wait" value="150" type="web" desc='' isThinkTime='false' isCommented='false' sequence="3">
+	<dialect type="sahi">
+		<accessor type='' value='' selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value='' selected="false"/>
+	</dialect>
+	<dialect type="flextesting">
+		<accessor type='' attribute='' value='' selected="false"/>
+	</dialect>
+</step>
+
+
+
+<step action="setValue" value="&quot;$password&quot;" type="web" desc='' isThinkTime='false' isCommented='false' sequence="4">
 	<dialect type="sahi">
 		<accessor type="setValue" value="password(&quot;spree_user[password]&quot;)" selected="true"/>
 		<accessor type="setValue" value="password(&quot;spree_user_password&quot;)" selected="false"/>
@@ -64,7 +78,7 @@
 
 
 
-<step action="click" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="4">
+<step action="click" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="5">
 	<dialect type="sahi">
 		<accessor type="click" value="submit(&quot;Login&quot;)" selected="true"/>
 		<accessor type="click" value="submit(&quot;commit&quot;)" selected="false"/>
@@ -80,7 +94,7 @@
 
 
 
-<step action="setValue" value="&quot;Spree&quot;" type="web" desc='' isThinkTime='false' isCommented='false' sequence="5">
+<step action="setValue" value="&quot;Spree&quot;" type="web" desc='' isThinkTime='false' isCommented='false' sequence="6">
 	<dialect type="sahi">
 		<accessor type="setValue" value="searchbox(&quot;keywords&quot;)" selected="true"/>
 		<accessor type="setValue" value="searchbox(&quot;keywords&quot;)" selected="false"/>
@@ -96,7 +110,7 @@
 
 
 
-<step action="click" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="6">
+<step action="click" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="7">
 	<dialect type="sahi">
 		<accessor type="click" value="submit(&quot;Search&quot;)" selected="true"/>
 		<accessor type="click" value="submit(&quot;btn btn-success&quot;)" selected="false"/>
@@ -111,7 +125,7 @@
 
 
 
-<step action="click" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="7">
+<step action="click" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="8">
 	<dialect type="sahi">
 		<accessor type="click" value="link(&quot;Spree Baseball Jersey&quot;)" selected="true"/>
 		<accessor type="click" value="link(&quot;Spree Baseball Jersey&quot;)" selected="false"/>
@@ -128,7 +142,7 @@
 
 
 
-<step action="setValue" value="&quot;2&quot;" type="web" desc='' isThinkTime='false' isCommented='false' sequence="8">
+<step action="setValue" value="&quot;2&quot;" type="web" desc='' isThinkTime='false' isCommented='false' sequence="9">
 	<dialect type="sahi">
 		<accessor type="setValue" value="numberbox(&quot;quantity&quot;)" selected="true"/>
 		<accessor type="setValue" value="numberbox(&quot;quantity&quot;)" selected="false"/>
@@ -144,7 +158,7 @@
 
 
 
-<step action="click" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="9">
+<step action="click" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="10">
 	<dialect type="sahi">
 		<accessor type="click" value="submit(&quot;button&quot;)" selected="true"/>
 		<accessor type="click" value="submit(&quot;add-to-cart-button&quot;)" selected="false"/>
@@ -159,7 +173,7 @@
 
 
 
-<step action="click" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="10">
+<step action="click" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="11">
 	<dialect type="sahi">
 		<accessor type="click" value="submit(&quot;Empty Cart&quot;)" selected="true"/>
 		<accessor type="click" value="submit(&quot;commit&quot;)" selected="false"/>
@@ -175,7 +189,7 @@
 
 
 
-<step action="click" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="11">
+<step action="click" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="12">
 	<dialect type="sahi">
 		<accessor type="click" value="link(&quot;Continue shopping&quot;)" selected="true"/>
 		<accessor type="click" value="link(5)" selected="false"/>
@@ -192,7 +206,7 @@
 
 
 
-<step action="click" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="12">
+<step action="click" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="13">
 	<dialect type="sahi">
 		<accessor type="click" value="link(&quot;Home&quot;)" selected="true"/>
 		<accessor type="click" value="link(3)" selected="false"/>
@@ -202,27 +216,6 @@
 		<accessor attribute='' value="&quot;//a[contains(text(),'Home')]&quot;" selected="true"/>
 		<accessor attribute='' value="&quot;//li[@id='home-link']/a&quot;" selected="false"/>
 		<accessor attribute='' value="&quot;//div/ul[1]/li/a&quot;" selected="false"/>
-	</dialect>
-</step>
-
-
-
-<step action="assertExists" value='' type="web" desc="Assert will fail " isThinkTime='false' isCommented='false' sequence="13">
-	<dialect type="sahi">
-		<accessor type="assertExists" value="link(&quot;Cart: (Empty)&quot;)" selected="true"/>
-		<accessor type="assertExists" value="link(4)" selected="false"/>
-		<accessor type="assertExists" value="link(&quot;http://ec2-52-35-57-90.us-west-2.compute.amazonaws.com:8888/cart&quot;)" selected="false"/>
-		<accessor type="assertExists" value="link(&quot;cart-info empty&quot;)" selected="false"/>
-		<accessor type='' value="link(&quot;Cart: (Empt)&quot;)" selected="false"/>
-	</dialect>
-	<dialect type="selenium">
-		<accessor attribute='' value="&quot;//a[contains(text(),'Cart: (Empty)')]&quot;" selected="false"/>
-		<accessor attribute='' value="&quot;//li[@id='link-to-cart']/a&quot;" selected="false"/>
-		<accessor attribute='' value="&quot;//a[contains(@href, '/cart')]&quot;" selected="false"/>
-		<accessor attribute='' value="&quot;//ul[2]/li/a&quot;" selected="false"/>
-	</dialect>
-	<dialect type="flextesting">
-		<accessor type="assertExists" attribute='' value='' selected="false"/>
 	</dialect>
 </step>
 
